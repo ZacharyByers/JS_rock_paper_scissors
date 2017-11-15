@@ -3,10 +3,10 @@ function chooseWinner(user, comp) {
     case 1:
       switch(comp) {
         case 1:
-          compChoiceText.innerHTML = "The computer chose rock."
+          compChoiceText.innerHTML = "The computer chose rockruff."
           return 3;
         case 2:
-          compChoiceText.innerHTML = "The computer chose paper."
+          compChoiceText.innerHTML = "The computer chose pelipper."
           return 2;
         case 3:
           compChoiceText.innerHTML = "The computer chose Scizor."
@@ -15,10 +15,10 @@ function chooseWinner(user, comp) {
     case 2:
       switch(comp) {
         case 1:
-          compChoiceText.innerHTML = "The computer chose rock."
+          compChoiceText.innerHTML = "The computer chose rockruff."
           return 1;
         case 2:
-          compChoiceText.innerHTML = "The computer chose paper."
+          compChoiceText.innerHTML = "The computer chose pelipper."
           return 3;
         case 3:
           compChoiceText.innerHTML = "The computer chose Scizor."
@@ -27,10 +27,10 @@ function chooseWinner(user, comp) {
     case 3:
       switch(comp) {
         case 1:
-          compChoiceText.innerHTML = "The computer chose rock."
+          compChoiceText.innerHTML = "The computer chose rockruff."
           return 2;
         case 2:
-          compChoiceText.innerHTML = "The computer chose paper."
+          compChoiceText.innerHTML = "The computer chose pelipper."
           return 1;
         case 3:
           compChoiceText.innerHTML = "The computer chose Scizor."
